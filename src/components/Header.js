@@ -9,12 +9,13 @@ import SearchIcon from "@material-ui/icons/Search";
 const Header = () => {
     return (
         <div className="header">
-
+        <Link to ="/">
 <       img
 		    className="youtube-logo"
 		    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1280px-YouTube_Logo_2017.svg.png"
 		    alt="YouTube logo"
 		/>
+        </Link>
 
         <div className="header-search">
             <input
@@ -39,7 +40,9 @@ const Header = () => {
                     src="https://avatars.githubusercontent.com/u/47721785?v=4"
                 />
             </a>
-            <InfoSharpIcon />
+            <Link to="/about">
+            <InfoSharpIcon/>
+            </Link>
         </div>
         </div>
     )
