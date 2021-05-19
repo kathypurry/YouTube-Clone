@@ -15,8 +15,11 @@ const Header = () => {
 		/>
 
         <div className="header-search">
-            <input type="text"/>
-            <SearchIcon />
+            <input
+                type="text"
+                placeholder="Search"
+            />
+            <SearchIcon className="search-icon"/>
         </div>
 
         <div className="github-link">
