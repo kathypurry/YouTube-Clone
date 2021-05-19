@@ -1,6 +1,8 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import About from "./About";
+import InfoSharpIcon from '@material-ui/icons/InfoSharp';
 import SearchIcon from "@material-ui/icons/Search";
 
 
@@ -37,8 +39,8 @@ const Header = () => {
                     src="https://avatars.githubusercontent.com/u/47721785?v=4"
                 />
             </a>
+            <InfoSharpIcon />
         </div>
-
         </div>
     )
 }

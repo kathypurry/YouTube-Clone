@@ -1,5 +1,5 @@
 # YouTube Clone
 
-![wireframe](src/YouTubeWireFrame.png)
+![wireframe](src/assets/Youtube-low-fidelity-wireframe.png)
 
 [trellolink](https://trello.com/b/OzNwrzrY/youtube-clone)
