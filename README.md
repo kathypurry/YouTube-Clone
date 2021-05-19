@@ -17,13 +17,13 @@
 ## Component Tree
 ![component-tree](src/assets/Component-Tree.png)
 
- <span style="color: orange">We started off with predicting how we would breakdown the project by building a component tree. We knew that the larger scale consisted of collecting video data and displaying it, but what about the display did we need to include in it's early stages. A search bar had to be implemented to make it intuitive for the user to input and await results. Links to an about section, cards for dispalying info, etc. ... This made it easier to get a general idea for how we would make the project more consumable and manageable.   </span>
+ <span style="color: orange">We started off with predicting how we would breakdown the project by building a component tree.  We knew that the larger scale consisted of collecting video data and displaying it, but what about the display did we need to include in it's early stages.  A search bar had to be implemented to make it intuitive for the user to input and await results. Links to an about section, cards for dispalying info, etc. ... This made it easier to get a general idea for how we would make the project more consumable and manageable.   </span>
  <p>&nbsp  </p>
 
 
 ## Low-Fidelity Wire Frame
 ---
-![wireframe](src/assets/Youtube-low-fidelity-wireframe.png)  
+![wireframe](src/assets/Youtube-low-fidelity-wireframe.png)
 <span style="color: orange">Now we can start to visualize how we want it all formated. So we drew up a mock version of the YouTube UI, but to include small changes like links to out github repos and an about us section.  </span>
 
  <p>&nbsp  </p>

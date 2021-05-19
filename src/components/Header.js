@@ -24,7 +24,7 @@ const Header = () => {
             <SearchIcon className="search-icon"/>
         </div>
 
-        <div className="github-link">
+        <div className="icon-links">
             <a href="https://github.com/kathypurry"
                   target="_blank">
                 <img
