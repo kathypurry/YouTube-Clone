@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   // getResults = async () => {
-  //   const { data } = await axios.get(`https://www.googleapis.com/youtube/v3/videos?chart=mostPopular&key=${AIzaSyDmEAYJJtV8-TCv_p1N5BoETw8Di_7lHWI}&part=snippet&maxResults=10`)
+  //   const { data } = await axios.get(`https://www.googleapis.com/youtube/v3/videos?chart=mostPopular&key=${apiKEY}&part=snippet&maxResults=10`)
   //   this.setState ({
   //     results : data,
   //   })
