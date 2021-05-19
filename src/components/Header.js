@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 import SearchIcon from "@material-ui/icons/Search";
 
 
@@ -16,6 +17,23 @@ const Header = () => {
         <div className="header-search">
             <input type="text"/>
             <SearchIcon />
+        </div>
+
+        <div className="github-link">
+            <a href="https://github.com/kathypurry"
+                  target="_blank">
+                <img
+                    className="github-icon"
+                    src="https://avatars.githubusercontent.com/u/21033013?v=4"
+                />
+            </a>
+            <a href="https://github.com/AlekiChrome"
+                  target="_blank">
+                <img
+                    className="github-icon"
+                    src="https://avatars.githubusercontent.com/u/47721785?v=4"
+                />
+            </a>
         </div>
 
         </div>
