@@ -14,14 +14,14 @@
     display: flex;
     align-items: center;
     border: 1px solid grey;
-    width: 20%;
+    width: 230px;
 }
 
 .header .search-icon {
     background: whitesmoke;
     color: grey;
     border-left: 1px solid grey;
-    width: 50px;
+    width: 60px;
 }
 
 .header .header-search input {
