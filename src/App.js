@@ -3,7 +3,10 @@ import {Route, Switch} from 'react-router-dom'
 import './App.css';
 import About from './components/About'
 import React, {Component} from 'react'
+
 import axios from 'axios'
+
+console.log(process.env.REACT_APP_API_KEY);
 
 class App extends Component {
   constructor() {
@@ -13,16 +16,16 @@ class App extends Component {
     }
   }
 
-  // handleSubmit = async () => {
-  //   const response =
-  // }
 
-  // getResults = async () => {
-  //   const { data } = await axios.get(`https://www.googleapis.com/youtube/v3/videos?chart=mostPopular&key=${apiKEY}&part=snippet&maxResults=10`)
-  //   this.setState ({
-  //     results : data,
-  //   })
-  // }
+    getResults = async () => {
+    const { data } = await axios.get(`https://www.googleapis.com/youtube/v3/videos?chart=mostPopular&key=${process.env.REACT_APP_API_KEY}&part=snippet&maxResults=10`)
+    this.setState ({
+      results : data,
+    })
+    console.log(data);
+  }
+
+
 
   render() {
   return (
@@ -30,11 +33,12 @@ class App extends Component {
       <Header />
       <Switch>
         <Route exact path = "/"/>
-        <Route path= "/about" component={About}/>
+        <Route path= "/About" component={About}/>
       </Switch>
     </div>
   );
   }
 }
+
 
 export default App;

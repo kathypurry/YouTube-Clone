@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
-import About from "./About";
+// import About from "./About";
 import InfoSharpIcon from '@material-ui/icons/InfoSharp';
 import SearchIcon from "@material-ui/icons/Search";
 
