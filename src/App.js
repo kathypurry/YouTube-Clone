@@ -3,11 +3,9 @@ import {Route, Switch} from 'react-router-dom'
 import './App.css';
 import About from './components/About'
 import React, {Component} from 'react'
-
 import axios from 'axios'
 
-console.log(process.env.REACT_APP_API_KEY);
-
+console.log(process.env.REACT_APP_API_KEY)
 class App extends Component {
   constructor() {
     super()
@@ -33,7 +31,6 @@ class App extends Component {
     }
 
   }
-
 
 
   render() {
