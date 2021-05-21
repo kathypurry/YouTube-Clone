@@ -19,11 +19,19 @@ class App extends Component {
 
 
     getResults = async () => {
-    const { data } = await axios.get(`https://www.googleapis.com/youtube/v3/videos?chart=mostPopular&key=${process.env.REACT_APP_API_KEY}&part=snippet&maxResults=10`)
-    this.setState ({
-      results : data,
-    })
-    console.log(data);
+      const API_KEY = process.env.REACT_APP_API_KEY
+      try {const { data } = await axios.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=6&key=${API_KEY}&type=video&q=${'puppies'}`)
+      this.setState ({
+        results: data,
+        search: '',
+      })
+      console.log(data);
+    }
+
+    catch {
+      console.log('Error');
+    }
+
   }
 
 
