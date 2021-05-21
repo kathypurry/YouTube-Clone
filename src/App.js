@@ -18,12 +18,13 @@ class App extends Component {
 
     getResults = async () => {
       const API_KEY = process.env.REACT_APP_API_KEY
-      try {const { data } = await axios.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=6&key=${API_KEY}&type=video&q=${'puppies'}`)
+      const search = this.state
+      try {const { data } = await axios.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=6&key=${API_KEY}&type=video&q=dog`)
       this.setState ({
         results: data,
         search: '',
       })
-      console.log(data);
+      console.log(API_KEY);
     }
 
     catch {

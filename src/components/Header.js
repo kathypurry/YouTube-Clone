@@ -48,17 +48,21 @@ const Header = () => {
 
         <div className="icon-links">
             <a href="https://github.com/kathypurry"
-                  target="_blank">
+                  target="_blank"
+                  rel="noreferrer">
                 <img
                     className="github-icon"
                     src="https://avatars.githubusercontent.com/u/21033013?v=4"
+                    alt=""
                 />
             </a>
             <a href="https://github.com/AlekiChrome"
-                  target="_blank">
+                  target="_blank"
+                  rel="noreferrer">
                 <img
                     className="github-icon"
                     src="https://avatars.githubusercontent.com/u/47721785?v=4"
+                    alt=""
                 />
             </a>
             <Link to="/about">
