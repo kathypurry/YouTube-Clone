@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./About.css";
+
 
 const About = () => {
   return (
@@ -18,9 +19,9 @@ const About = () => {
 
     <div className="bio-boxes">
       <div className="about-bio">
-        <img src="https://hosting.photobucket.com/images/b619/ThaSoundtrack/ezgif.com-gif-maker.gif?width=450&height=278&crop=fill"></img>
+        <img className="inverted" src="https://hosting.photobucket.com/images/b619/ThaSoundtrack/ezgif.com-gif-maker.gif?width=450&height=278&crop=fill"></img>
         <a href="https://www.linkedin.com/in/candiceagard/" target="_blank">
-          <img className="bio-icon" src="https://avatars.githubusercontent.com/u/47721785?v=4"></img>
+          <img className="bio-icon inverted" src="https://avatars.githubusercontent.com/u/47721785?v=4"></img>
         </a>
         <h3>I'm leaning on a fence between past and present tense</h3>
         <p>Candy</p>
@@ -28,9 +29,9 @@ const About = () => {
 
 
       <div className="about-bio">
-        <img src="https://camo.githubusercontent.com/5602835424300ae0f402641fe7fc65058c73c2d69df4e952f5d364aba9edd722/68747470733a2f2f6c6976652e737461746963666c69636b722e636f6d2f36353533352f35303836383033303133325f376435653665643438305f632e6a7067"></img>
+        <img className="inverted" src="https://camo.githubusercontent.com/5602835424300ae0f402641fe7fc65058c73c2d69df4e952f5d364aba9edd722/68747470733a2f2f6c6976652e737461746963666c69636b722e636f6d2f36353533352f35303836383033303133325f376435653665643438305f632e6a7067"></img>
         <a href="https://www.linkedin.com/in/kathy-gee-a25b97a9/" target="_blank">
-          <img className="bio-icon" src="https://avatars.githubusercontent.com/u/21033013?v=4"></img>
+          <img className="bio-icon inverted" src="https://avatars.githubusercontent.com/u/21033013?v=4"></img>
         </a>
 
         <h3>I love the color pink and Popeyes Chicken</h3>
