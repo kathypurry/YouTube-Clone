@@ -51,11 +51,8 @@ class App extends Component {
         <Route exact path= "/About" component={About} />
       </Switch>
       <Search onSearch={this.onSearch} />
-      <Link to="/video" target="_blank" onClick={(event) => {
-      event.preventDefault();
-      window.open(this.makeHref("/video"));
-      }} >
-      <VideoData target="_blank" className="inverted" onVideoSelected={this.onVideoSelected} data={this.state.videoInfo} /> </Link>
+      <Play/>  
+      <VideoData target="_blank" className="inverted" onVideoSelected={this.onVideoSelected} data={this.state.videoInfo} />
       <VideoPlayer target="_blank" videoId={this.state.selectedVideoId} />
     </div>
   );
