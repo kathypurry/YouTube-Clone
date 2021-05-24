@@ -61,15 +61,8 @@ const Header = () => {
                 />
             </a>
             <Link to="/about">
-            <InfoSharpIcon
-                 onMouseOver={() => setIsInfo(true)}
-                 onMouseLeave={() => setIsInfo(false)}
-            />
-                  {isInfo && (
-                <p style={styles}>
-                    About
-                </p>
-        )}
+            <InfoSharpIcon />
+            
             </Link>
         </div>
         </div>
