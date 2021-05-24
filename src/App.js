@@ -12,7 +12,7 @@ import axios from 'axios';
 document.onkeypress = function (e) {
   e = e || window.event;
 
-  if (e.keyCode === 13) {
+  if (e.keyCode === 12) {
     document.documentElement.classList.toggle("dark-mode");
 
     document.querySelectorAll('.inverted').forEach((result) => {
