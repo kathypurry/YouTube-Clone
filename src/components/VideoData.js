@@ -1,4 +1,5 @@
 import Video from "./Video";
+import VideoCard from './VideoCard'
 
 const VideoData = ({ data, onVideoSelected }) => {
     return (
@@ -7,6 +8,7 @@ const VideoData = ({ data, onVideoSelected }) => {
                 <h3 style={{ textAlign: "center", fontSize: "18px", fontWeight: "bold" }}>
                 </h3>
         <Video data={data} onVideoSelected={onVideoSelected} />
+        {/* <VideoCard/> */}
         </div>
     )
 }
