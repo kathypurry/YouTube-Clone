@@ -3,6 +3,7 @@
     border: 1px solid lightgray;
     border-radius: 2px;
     margin: 20px 0;
+    padding: 10px;
   }
 
   .video-data {
@@ -11,6 +12,7 @@
   }
 
   .video > .title {
+    color: whitesmoke;
     text-align: center;
     padding: 10px;
     margin: 0;
@@ -31,6 +33,16 @@
     align-items: center;
     width: 600px;
     height: 600px;
+  }
 
-    /* height: 100%; */
+  .v-player-text {
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(109, 154, 213);
+    margin-left: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 30px;
   }

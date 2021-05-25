@@ -1,13 +1,15 @@
 body {
-    background: whitesmoke;
+    background: rgb(29, 27, 27);
 }
 
 .about-sec {
+    color: rgb(109, 154, 213);
     text-align: center;
 }
 
 .about-sec p {
     padding: 20px;
+    color: whitesmoke;
 }
 
 .bio-boxes {
@@ -26,19 +28,20 @@ body {
 }
 
 .about-bio img {
+    border: 1px dotted whitesmoke;
     width: 400px;
 }
 
 .about-bio h3 {
     font-family: Roboto, Arial, sans-serif;
-    color: rgb(3, 3, 3);
+    color: whitesmoke;
     font-size: 16px;
     line-height: 22px;
 }
 
 .about-bio p {
     font-family: Roboto, Arial, sans-serif;
-    color: rgb(96, 96, 96);
+    color: rgb(109, 154, 213);
     font-weight: 400;
     font-size: 14px;
     Line-height: 18px;
@@ -52,10 +55,11 @@ body {
     width: 40px;
 }
 
-.v-player-text {
-    font-family: Roboto, Arial, sans-serif;
-    font-weight: 500;
-    line-height: 20px;
-    color: red;
-    margin-left: 30px;
+
+.desc h1 {
+    color: yellow;
+}
+
+.youtube-logo {
+    width: 150px;
 }
