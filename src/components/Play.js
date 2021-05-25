@@ -29,7 +29,7 @@ class Play extends Component {
         </div>
 
 
-    // <di>
+    // <div>
     //     <h1>moo</h1>
     //     <Search onSearch={this.onSearch} />
     //      <VideoData

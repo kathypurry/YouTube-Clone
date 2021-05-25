@@ -28,11 +28,6 @@ const Header = () => {
             onMouseOver={() => setIsLabelled(true)}
             onMouseLeave={() => setIsLabelled(false)}
 		/>
-            {isLabelled && (
-                <p style={styles}>
-                    Home
-                </p>
-        )}
 
         </Link>
 
@@ -60,9 +55,10 @@ const Header = () => {
                     alt=""
                 />
             </a>
+            <Link to="/">Home</Link>
             <Link to="/about">
             <InfoSharpIcon />
-            
+
             </Link>
         </div>
         </div>
