@@ -28,18 +28,8 @@ const Header = () => {
             onMouseOver={() => setIsLabelled(true)}
             onMouseLeave={() => setIsLabelled(false)}
 		/>
-            {isLabelled && (
-                <p style={styles}>
-                    Home
-                </p>
-        )}
 
         </Link>
-
-        {/* <div className="header-search">
-          <input />
-            <SearchIcon className="search-icon"/>
-        </div> */}
 
         <div className="icon-links">
             <a href="https://github.com/kathypurry"
@@ -61,15 +51,8 @@ const Header = () => {
                 />
             </a>
             <Link to="/about">
-            <InfoSharpIcon
-                 onMouseOver={() => setIsInfo(true)}
-                 onMouseLeave={() => setIsInfo(false)}
-            />
-                  {isInfo && (
-                <p style={styles}>
-                    About
-                </p>
-        )}
+            <InfoSharpIcon />
+
             </Link>
         </div>
         </div>
