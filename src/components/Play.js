@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import VideoPlayer from "./VideoPlayer";
-import Search from "./Search";
-import VideoData from "./VideoData";
+
 
 class Play extends Component {
     constructor(props){
@@ -15,10 +14,6 @@ class Play extends Component {
         }
     }
 
-    // onVideoSelected = videoId => {
-    //     this.setState({ selectedVideoId: videoId})
-    //   }
-
 
     render()
     { console.log(this.state)
@@ -28,21 +23,6 @@ class Play extends Component {
             <VideoPlayer base target="_blank" videoId={this.state.selectedVideoId} />
         </div>
 
-
-    // <div>
-    //     <h1>moo</h1>
-    //     <Search onSearch={this.onSearch} />
-    //      <VideoData
-    //         base target="_blank"
-    //         rel="noreferrer"
-    //         className="inverted"
-    //         onVideoSelected={this.state.onVideoSelected}
-    //         data={this.state.videoInfo}
-    //         // data={this.state.data}
-    //       />{" "}
-
-    //     <VideoPlayer target="_blank" videoId={this.state.videoId} />
-    
     )
   }
 }
