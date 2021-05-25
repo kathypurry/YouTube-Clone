@@ -33,7 +33,7 @@ const About = () => {
 
       <div className="about-bio">
 
-        <img className="inverted" src="https://camo.githubusercontent.com/5602835424300ae0f402641fe7fc65058c73c2d69df4e952f5d364aba9edd722/68747470733a2f2f6c6976652e737461746963666c69636b722e636f6d2f36353533352f35303836383033303133325f376435653665643438305f632e6a7067"></img>
+        <img className="inverted" src="https://hosting.photobucket.com/images/b619/ThaSoundtrack/ezgif.com-gif-maker_(1).gif?width=1920&height=1080&fit=bounds"></img>
         <a href="https://kathypurry.github.io/" target="_blank">
           <img className="bio-icon inverted" src="https://avatars.githubusercontent.com/u/21033013?v=4"></img>
 
