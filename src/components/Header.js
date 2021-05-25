@@ -31,11 +31,6 @@ const Header = () => {
 
         </Link>
 
-        {/* <div className="header-search">
-          <input />
-            <SearchIcon className="search-icon"/>
-        </div> */}
-
         <div className="icon-links">
             <a href="https://github.com/kathypurry"
                   target="_blank"
@@ -55,7 +50,6 @@ const Header = () => {
                     alt=""
                 />
             </a>
-            <Link to="/">Home</Link>
             <Link to="/about">
             <InfoSharpIcon />
 
