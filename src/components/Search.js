@@ -14,8 +14,10 @@ class Search extends Component {
 
     onSubmit = e => {
         e.preventDefault()
-
         this.props.onSearch(this.state.title)
+        this.setState({
+            title: "",
+        })
     }
 
     render() {

@@ -10,8 +10,6 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-
-
           <div>
           <Header />
           </div>
@@ -19,7 +17,6 @@ function App() {
             <Route exact path = "/" component={Home}/>
             <Route path= "/video/:id" component={Play}/>
             <Route path= "/About" component={About} />
-
           </Switch>
           </div>
   )
