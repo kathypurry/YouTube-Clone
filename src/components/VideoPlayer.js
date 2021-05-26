@@ -20,18 +20,18 @@ class Videoplayer extends Component {
 
 
     const {videoId} = this.props
-      if (!videoId) {
-        return (
-          <div className="v-player">
-             <p className="v-player-text">
-              Search for video
-            </p>
-            <h1>Welcome to CandyKat</h1>
-            <img src={CK} />
+    //   if (!videoId) {
+    //     return (
+    //       <div className="v-player">
+    //          <p className="v-player-text">
+    //           Search for video
+    //         </p>
+    //         <h1>Welcome to CandyKat</h1>
+    //         <img src={CK} />
 
-          </div>
-        )
-      }
+    //       </div>
+    //     )
+    //   }
 
     return <YouTube
             videoId={videoId}

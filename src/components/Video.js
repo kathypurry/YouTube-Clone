@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 import "../styles/_video.css";
 
@@ -18,13 +19,14 @@ function getCss(imageurl) {
 function constructVideoTitles(vidoesData, onVideoSelected) {
   return vidoesData.map(({ snippet, id }, index) => {
     return (
-      <div
+      <Link
         className="video"
         key={index}
+        to={`/video/${onVideoSelected}`}
         onClick={() => selectVideo(id, onVideoSelected)}>
         <div style={getCss(snippet.thumbnails.high.url)} key={index} />
         <p className="title">{snippet.title}</p>
-      </div>
+      </Link>
     );
   });
 }
