@@ -41,10 +41,11 @@ export default class Home extends Component {
             onVideoSelected={this.onVideoSelected}
             data={this.state.videoInfo}
           />
-          <img src={CK} />
+                <img src={CK} />
           {/* <VideoPlayer base target="_blank" videoId={this.state.selectedVideoId} /> */}
+          </div>
         </div>
-      </div>
+ master
     );
   }
 }
