@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Search from "./Search";
 import youtube from "./youtube";
 import VideoData from "./VideoData";
-import VideoPlayer from "./VideoPlayer";
+// import VideoPlayer from "./VideoPlayer";
 
 export default class Home extends Component {
     state = {
@@ -24,14 +24,18 @@ export default class Home extends Component {
           videoInfo: response.data.items,
           selectedVideoId: response.data.items[0].id.videoId
         })
-        // console.log(this.state)
       }
       render() {
       return (
           <div>
               <Search onSearch={this.onSearch} />
+              <div className="v-player">
+             <p className="v-player-text">
+              Search for video
+            </p>
               <VideoData base target="_blank" className="inverted" onVideoSelected={this.onVideoSelected} data={this.state.videoInfo} />
-              <VideoPlayer base target="_blank" videoId={this.state.selectedVideoId} />
+              {/* <VideoPlayer base target="/video/v" videoId={this.state.selectedVideoId} /> */}
+        </div>
         </div>
       );
     }

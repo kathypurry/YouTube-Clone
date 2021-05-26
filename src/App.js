@@ -20,7 +20,6 @@ function App() {
             <Route path= "/video/:id" component={Play}/>
             <Route path= "/About" component={About} />
 
-
           </Switch>
           </div>
   )
