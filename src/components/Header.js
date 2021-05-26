@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import InfoSharpIcon from '@material-ui/icons/InfoSharp';
+import RefreshRoundedIcon from '@material-ui/icons/RefreshRounded';
 import katcandypile from "./katcandypile.png"
 
 
 const Header = () => {
+
 
     return (
         <div className="header tooltip">
@@ -18,6 +20,11 @@ const Header = () => {
         <span className="tooltiptext">Home</span>
 
         </Link>
+
+        <RefreshRoundedIcon
+            onClick={() => window.location.reload(false)}
+            className="about-icon"
+        />
 
         <div className="icon-links">
             <a href="https://github.com/kathypurry"
