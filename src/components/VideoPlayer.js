@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import YouTube from "react-youtube";
+import CK from "./CK.gif";
 
 
 class Videoplayer extends Component {
@@ -21,9 +22,14 @@ class Videoplayer extends Component {
     const {videoId} = this.props
       if (!videoId) {
         return (
-          <p className="v-player-text">
-            Search for video
-          </p>
+          <div className="v-player">
+             <p className="v-player-text">
+              Search for video
+            </p>
+            <h1>Welcome to CandyKat</h1>
+            <img src={CK} />
+
+          </div>
         )
       }
 

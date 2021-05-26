@@ -7,16 +7,6 @@ import Play from "./components/Play";
 import React from 'react';
 
 
-
-// document.onkeypress = function (e) {
-//   e = e || window.event;
-//   if (e.keyCode === 12) {
-//     document.documentElement.classList.toggle("dark-mode");
-//     document.querySelectorAll('.inverted').forEach((result) => {
-//       result.classList.toggle('invert');
-//     })
-//   }
-// }
 console.log(process.env.REACT_APP_API_KEY)
 
 function App() {
