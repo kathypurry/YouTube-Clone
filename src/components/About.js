@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import katcandypile from "./katcandypile.png"
 import "./About.css";
 
 
@@ -14,6 +15,11 @@ const About = () => {
           components, React Hooks, and React Styling to solidify the language
           that we are currently practicing in.
         </p>
+        <img
+		    className="youtube-logo"
+		    src={katcandypile}
+		    alt="YouTube logo"
+		/>
       </div>
 
 

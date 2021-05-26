@@ -30,9 +30,9 @@ export default class Home extends Component {
       return (
           <div>
               <Search onSearch={this.onSearch} />
-          <VideoData base target="_blank" className="inverted" onVideoSelected={this.onVideoSelected} data={this.state.videoInfo} />
-          <VideoPlayer base target="_blank" videoId={this.state.selectedVideoId} />
+              <VideoData base target="_blank" className="inverted" onVideoSelected={this.onVideoSelected} data={this.state.videoInfo} />
+              <VideoPlayer base target="_blank" videoId={this.state.selectedVideoId} />
         </div>
       );
-      }
+    }
 }

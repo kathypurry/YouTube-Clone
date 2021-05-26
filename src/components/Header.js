@@ -3,6 +3,7 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import InfoSharpIcon from '@material-ui/icons/InfoSharp';
 import SearchIcon from "@material-ui/icons/Search";
+import katcandypile from "./katcandypile.png"
 
 
 const Header = () => {
@@ -19,13 +20,14 @@ const Header = () => {
 
 
     return (
-        <div className="header">
+        <div className="header tooltip">
         <Link to ="/">
         <img
 		    className="youtube-logo"
-		    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1280px-YouTube_Logo_2017.svg.png"
+		    src={katcandypile}
 		    alt="YouTube logo"
 		/>
+        <span className="tooltiptext">Home</span>
 
         </Link>
 
@@ -51,7 +53,6 @@ const Header = () => {
             <Link to="/about">
             <InfoSharpIcon
                 className="about-icon"/>
-
             </Link>
         </div>
         </div>

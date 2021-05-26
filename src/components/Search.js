@@ -27,7 +27,7 @@ class Search extends Component {
                         <input
                             value={this.state.title}
                             onChange={this.onChanged} t
-                            ype="text"
+                            type="text"
                             placeholder="Search"
                         />
 

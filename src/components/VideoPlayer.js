@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import YouTube from "react-youtube";
+import CK from "./CK.gif";
 
 
 class Videoplayer extends Component {
 
   videoOnReady(event) {
-    // access to player in all event handlers via event.target
     event.target.pauseVideo();
   }
 
@@ -14,21 +14,24 @@ class Videoplayer extends Component {
       height: '390',
       width: '640',
       playerVars: {
-        // https://developers.google.com/youtube/player_parameters
         autoplay: 1,
       },
     };
 
 
     const {videoId} = this.props
+      if (!videoId) {
+        return (
+          <div className="v-player">
+             <p className="v-player-text">
+              Search for video
+            </p>
+            <h1>Welcome to CandyKat</h1>
+            <img src={CK} />
 
-    if (!videoId) {
-      return (
-        <p className="v-player-text">
-          Search for video
-        </p>
-      )
-    }
+          </div>
+        )
+      }
 
     return <YouTube videoId={videoId} opts={opts} videoOnReady={this.videoOnReady} />;
 
