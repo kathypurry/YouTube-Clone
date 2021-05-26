@@ -2,21 +2,11 @@ import React, { useState } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import InfoSharpIcon from '@material-ui/icons/InfoSharp';
-import SearchIcon from "@material-ui/icons/Search";
+import RefreshRoundedIcon from '@material-ui/icons/RefreshRounded';
 import katcandypile from "./katcandypile.png"
 
 
 const Header = () => {
-    const [ isLabelled, setIsLabelled ] = useState(false);
-    const [ isInfo, setIsInfo] = useState(false);
-
-    const styles = {
-        fontFamily: "Roboto, Arial, sans-serif",
-        color: "black",
-        textDecoration: "none",
-        fontSize: "12px",
-
-    }
 
 
     return (
@@ -30,6 +20,11 @@ const Header = () => {
         <span className="tooltiptext">Home</span>
 
         </Link>
+
+        <RefreshRoundedIcon
+            onClick={() => window.location.reload(false)}
+            className="about-icon"
+        />
 
         <div className="icon-links">
             <a href="https://github.com/kathypurry"

@@ -44,8 +44,7 @@ export default class Home extends Component {
           />
                     <img src={CK} />
           {/* <VideoPlayer base target="_blank" videoId={this.state.selectedVideoId} /> */}
-        </div>
-      </div>
+          </div>
     );
   }
 }

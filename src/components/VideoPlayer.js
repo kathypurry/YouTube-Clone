@@ -33,7 +33,11 @@ class Videoplayer extends Component {
     //     )
     //   }
 
-    return <YouTube videoId={videoId} opts={opts} videoOnReady={this.videoOnReady} />;
+    return <YouTube
+            videoId={videoId}
+            opts={opts}
+            videoOnReady={this.videoOnReady}
+          />;
 
   }
 }
