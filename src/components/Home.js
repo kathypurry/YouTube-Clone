@@ -24,7 +24,6 @@ export default class Home extends Component {
           videoInfo: response.data.items,
           selectedVideoId: response.data.items[0].id.videoId
         })
-        // console.log(this.state)
       }
       render() {
       return (

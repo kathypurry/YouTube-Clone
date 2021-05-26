@@ -2,22 +2,10 @@ import React, { useState } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import InfoSharpIcon from '@material-ui/icons/InfoSharp';
-import SearchIcon from "@material-ui/icons/Search";
 import katcandypile from "./katcandypile.png"
 
 
 const Header = () => {
-    const [ isLabelled, setIsLabelled ] = useState(false);
-    const [ isInfo, setIsInfo] = useState(false);
-
-    const styles = {
-        fontFamily: "Roboto, Arial, sans-serif",
-        color: "black",
-        textDecoration: "none",
-        fontSize: "12px",
-
-    }
-
 
     return (
         <div className="header tooltip">
