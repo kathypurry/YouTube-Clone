@@ -5,6 +5,7 @@ import VideoPlayer from "./VideoPlayer";
 class Play extends Component {
     constructor(props){
         super(props)
+        // thumbs up on use of state
         this.state = {
             onVideoSelected: props.onVideoSelected,
             data: props.data,

@@ -6,6 +6,7 @@ import CK from "./CK.gif";
 import VideoPlayer from "./VideoPlayer";
 
 export default class Home extends Component {
+    // Nice use of state
   state = {
     videoInfo: [],
     selectedVideoId: null,
