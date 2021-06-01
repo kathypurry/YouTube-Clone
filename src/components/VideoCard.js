@@ -1,3 +1,6 @@
+/*
+Don't push commented-out code to your GitHub repo!
+*/
 // import React, {Component} from 'react'
 // import {Link} from 'react-router-dom'
 // import Video from './Video'

@@ -1,4 +1,8 @@
-import React, { useState } from "react";
+/*
+Right idea to utilize useState in your functional components, just
+remember to clean up unused imports before committing code.
+*/
+import React from "react";
 import katcandypile from "./katcandypile.png"
 import "./About.css";
 
