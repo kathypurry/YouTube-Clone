@@ -5,7 +5,10 @@ import VideoPlayer from "./VideoPlayer";
 class Play extends Component {
     constructor(props){
         super(props)
-        // thumbs up on use of state
+        /*
+        Thumbs up on use of state at first glance, though I believe the data being passed here
+        requires debugging to get your `/video/:id` view to render correctly.
+        */ 
         this.state = {
             onVideoSelected: props.onVideoSelected,
             data: props.data,
